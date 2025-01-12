@@ -5,8 +5,8 @@ class Program
     static void Main(string[] args)
     {
         Console.WriteLine("Hello world! This is the Exercise5 Project.");
-        DisplayWelcome();
-        
+
+        DisplayWelcome();        
         string userName = PromptUserName();
         int userNumber = PromptUserNumber();
         int squaredNumber = SquareNumber(userNumber);
